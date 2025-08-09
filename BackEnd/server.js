@@ -1,4 +1,4 @@
-
+require('dotenv').config();
 
 var app = require('./controller/app')
 var hostname = "localhost"

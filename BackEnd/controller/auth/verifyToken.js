@@ -1,7 +1,5 @@
-//Proposed fixed:
-require('dotenv').config();
-var jwt = require('jsonwebtoken');
-var config = require('../config'); // now using getCurrentKey & getPreviousKey
+// var jwt = require('jsonwebtoken');
+var config = require('../../config'); // now using getCurrentKey & getPreviousKey
 
 function verifyToken(req, res, next) {
     console.log(req.headers);

@@ -188,9 +188,9 @@ const userDB = {
                   userid: result[0].userid,
                   type: result[0].type,
                 },
-                config.key,
+                // config.key,
                 //Proposed fixed:
-                // config.getCurrentKey(),
+                config.getCurrentKey(),
                 {
                   expiresIn: 86400, //expires in 24 hrs
                 }

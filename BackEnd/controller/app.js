@@ -24,7 +24,7 @@ const productDB = require('../model/product');
 const reviewDB = require('../model/review');
 const discountDB = require('../model/discount');
 const productImagesDB = require('../model/productimages');
-var verifyToken = require('../auth/verifyToken.js');
+var verifyToken = require('../controller/auth/verifyToken');
 const orderDB = require('../model/orders');
 
 var app = express();
